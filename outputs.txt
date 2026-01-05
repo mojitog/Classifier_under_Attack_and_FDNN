@@ -1,0 +1,28 @@
+Random Forest
+Accuracy is equal to  0.7002868068833652
+Recall is equal to  0.7002868068833652
+Precision is equal to  0.7026197765893504
+ROC_AUC is equal to  0.7712871024314518 
+
+Decision Tree
+Accuracy is equal to  0.6152007648183556
+ROC_AUC is equal to  0.6222961494385437 
+
+Decision Tree before attack
+Accuracy is equal to  0.6152007648183556
+Decision Tree after attack
+Accuracy on adversial example are equal to  0.3847992351816444
+Prediction Difference is :  -0.09273422562141491
+Training loss is:  0.682383752630021
+Training loss is:  0.5563133144600924
+Training loss is:  0.5369561488901655
+Training loss is:  0.5175972843990825
+Training loss is:  0.4957120994007315
+Training loss is:  0.4797369102230918
+Training loss is:  0.4565029684554381
+Training loss is:  0.4356116194892873
+Training loss is:  0.4179418185028791
+Training loss is:  0.40791624442172103
+DNN Test Accuracy: 0.6639579349904398, test loss: 1.056352720205916
+all labels [0 0 1 ... 0 1 1], all probs [0.04921039 0.00732621 0.64651746 ... 0.7761713  0.78728217 0.44320545]
+DNN Test AUC_ROC: 0.7131323477184774
