@@ -1,0 +1,47 @@
+artifact_path: file:///C:/Users/ASUS/python_projects/HELOC/mlruns/1/models/m-9b43c55fe22f4257bb56a82c1368b27f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-9b43c55fe22f4257bb56a82c1368b27f
+model_size_bytes: 216645
+model_uuid: m-9b43c55fe22f4257bb56a82c1368b27f
+prompts: null
+run_id: 1b14748766974e30b9319a0eedab0d60
+signature:
+  inputs: '[{"type": "long", "name": "ExternalRiskEstimate", "required": true}, {"type":
+    "long", "name": "MSinceOldestTradeOpen", "required": true}, {"type": "long", "name":
+    "MSinceMostRecentTradeOpen", "required": true}, {"type": "long", "name": "AverageMInFile",
+    "required": true}, {"type": "long", "name": "NumSatisfactoryTrades", "required":
+    true}, {"type": "long", "name": "NumTrades60Ever2DerogPubRec", "required": true},
+    {"type": "long", "name": "NumTrades90Ever2DerogPubRec", "required": true}, {"type":
+    "long", "name": "PercentTradesNeverDelq", "required": true}, {"type": "long",
+    "name": "MSinceMostRecentDelq", "required": true}, {"type": "long", "name": "MaxDelq2PublicRecLast12M",
+    "required": true}, {"type": "long", "name": "MaxDelqEver", "required": true},
+    {"type": "long", "name": "NumTotalTrades", "required": true}, {"type": "long",
+    "name": "NumTradesOpeninLast12M", "required": true}, {"type": "long", "name":
+    "PercentInstallTrades", "required": true}, {"type": "long", "name": "MSinceMostRecentInqexcl7days",
+    "required": true}, {"type": "long", "name": "NumInqLast6M", "required": true},
+    {"type": "long", "name": "NumInqLast6Mexcl7days", "required": true}, {"type":
+    "long", "name": "NetFractionRevolvingBurden", "required": true}, {"type": "long",
+    "name": "NetFractionInstallBurden", "required": true}, {"type": "long", "name":
+    "NumRevolvingTradesWBalance", "required": true}, {"type": "long", "name": "NumInstallTradesWBalance",
+    "required": true}, {"type": "long", "name": "NumBank2NatlTradesWHighUtilization",
+    "required": true}, {"type": "long", "name": "PercentTradesWBalance", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-07 23:53:47.372294'
